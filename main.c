@@ -180,7 +180,7 @@ void create2(moneylist *li2)
 {
 node2 *m=(node2 *)malloc(sizeof(node2));
 m->next2=NULL;
-strcpy(m->money,"hello how are you");
+strcpy(m->money," ");
 if(li2->head2==NULL)
 {
 li2->head2=m;
